@@ -7,10 +7,15 @@ public abstract class  Poligono {
 		this.numeroLados = numeroLados;
 	}
 	
-		public int getNumeroLados() {
+	public int getNumeroLados() {
 		return numeroLados;
 	}
 	
+	@Override
+	public String toString() {
+		return "Poligono [numeroLados=" + numeroLados + "]";
+	}
+
 	public abstract double area();
 	
 	
